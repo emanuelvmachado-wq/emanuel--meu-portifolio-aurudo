@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Emanuel | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <span>&lt;</span>Emanuel<span>/&gt;</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button id="themeButton">🌙</button>
+
+        </nav>
+    </header>
+
+
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-text">
+
+            <p class="hello">Olá, eu sou</p>
+
+            <h1>Emanuel <span>Vendramini</span></h1>
+
+            <h2>Desenvolvedor em formação</h2>
+
+            <p>
+                Estou aprendendo programação e criando projetos
+                utilizando HTML, CSS e JavaScript.
+            </p>
+
+            <div class="buttons">
+                <a href="#projetos" class="btn">Ver projetos</a>
+                <a href="#contato" class="btn outline">Contato</a>
+            </div>
+
+        </div>
+
+
+        <div class="code-box">
+
+            <div class="code-top">
+                <span class="red"></span>
+                <span class="yellow"></span>
+                <span class="green"></span>
+            </div>
+
+            <pre><code>
+<span class="purple">const</span> desenvolvedor = {
+    nome: <span class="orange">"Emanuel"</span>,
+    idade: <span class="number">17</span>,
+    foco: <span class="orange">"Programação"</span>,
+    linguagens: [
+        <span class="orange">"HTML"</span>,
+        <span class="orange">"CSS"</span>,
+        <span class="orange">"JavaScript"</span>
+    ]
+};
+
+<span class="blue">console</span>.log(
+    <span class="orange">"Olá, mundo!"</span>
+);
+            </code></pre>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+
+        <div class="section-title">
+            <span>01.</span>
+            <h2>Sobre mim</h2>
+        </div>
+
+        <div class="about">
+
+            <div class="about-text">
+
+                <p>
+                    Meu nome é <strong>Emanuel Vendramini</strong>.
+                    Sou estudante e estou começando minha jornada
+                    no mundo da programação.
+                </p>
+
+                <p>
+                    Tenho interesse em desenvolvimento de sites,
+                    jogos e projetos utilizando tecnologias web.
+                    Gosto de aprender na prática e transformar
+                    ideias em projetos funcionais.
+                </p>
+
+                <p>
+                    Atualmente estou estudando principalmente
+                    HTML, CSS e JavaScript.
+                </p>
+
+            </div>
+
+            <div class="about-card">
+
+                <div class="avatar">
+                    👨‍💻
+                </div>
+
+                <h3>Emanuel</h3>
+
+                <p>Developer em formação</p>
+
+                <div class="status">
+                    <span></span>
+                    Disponível para aprender
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section">
+
+        <div class="section-title">
+            <span>02.</span>
+            <h2>Minhas habilidades</h2>
+        </div>
+
+        <div class="skills">
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress html"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress css"></div>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>65%</span>
+                </div>
+
+                <div class="bar">
+                    <div class="progress js"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="tech">
+
+            <div class="tech-card">
+                <div class="tech-icon">🌐</div>
+                <h3>HTML</h3>
+                <p>Estrutura de páginas web.</p>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-icon">🎨</div>
+                <h3>CSS</h3>
+                <p>Design e responsividade.</p>
+            </div>
+
+            <div class="tech-card">
+                <div class="tech-icon">⚡</div>
+                <h3>JavaScript</h3>
+                <p>Interatividade e lógica.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+
+        <div class="section-title">
+            <span>03.</span>
+            <h2>Projetos</h2>
+        </div>
+
+        <div class="projects">
+
+            <article class="project">
+
+                <div class="project-icon">
+                    🎮
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <h3>Jogo RPG</h3>
+
+                    <p>
+                        Projeto de jogo desenvolvido para praticar
+                        programação, lógica e interação com o usuário.
+                    </p>
+
+                    <button class="project-button">
+                        Ver projeto
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-icon">
+                    🛡️
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <h3>Site de Segurança</h3>
+
+                    <p>
+                        Página informativa sobre segurança digital,
+                        senhas, phishing e proteção na internet.
+                    </p>
+
+                    <button class="project-button">
+                        Ver projeto
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="project">
+
+                <div class="project-icon">
+                    🚀
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        HTML • CSS • JavaScript
+                    </span>
+
+                    <h3>Meu próximo projeto</h3>
+
+                    <p>
+                        Um novo projeto será desenvolvido conforme
+                        eu continuar aprendendo programação.
+                    </p>
+
+                    <button class="project-button">
+                        Em breve
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="section contact">
+
+        <div class="section-title">
+            <span>04.</span>
+            <h2>Entre em contato</h2>
+        </div>
+
+        <p>
+            Quer conversar ou conhecer meus projetos?
+        </p>
+
+        <div class="contact-buttons">
+
+            <a href="mailto:seuemail@email.com" class="contact-btn">
+                📧 Email
+            </a>
+
+            <a href="https://github.com/" target="_blank" class="contact-btn">
+                💻 GitHub
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            Desenvolvido por <strong>Emanuel</strong>
+        </p>
+
+        <p class="copyright">
+            © 2026 - Todos os direitos reservados
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
